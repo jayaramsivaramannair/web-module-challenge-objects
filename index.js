@@ -97,6 +97,12 @@ Using the reviews array above do the following:
   1. Following the same format (name, rating, feedback), add a new fictitious review object to the reviews array
   2. log the whole array to the console, make sure the new review is inside of it   
 */
+let jayaramReview = {};
+jayaramReview.name = "Jayaram";
+jayaramReview.rating = 5;
+jayaramReview.feedback = "I fricking love this place! They have a lot of options on their menu which is affordable and well within a regular person's budget."
+reviews.push(jayaramReview);
+console.log(reviews);
 
 
 
