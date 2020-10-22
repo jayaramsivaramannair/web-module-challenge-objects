@@ -202,9 +202,18 @@ Use the getLongReviews function below to do the following:
   ]
 */
 
-function getLongReviews(/* code here */) {
-    /* code here */
+function getLongReviews(reviewsArray) {
+    let longReviews = [];
+    for(let review of reviewsArray) {
+      let wordCount = review.feedback.split(" ").length;
+      if(wordCount > 15) {
+        longReviews.push(review);
+      }
+    }
+    return longReviews;
   }
+
+  console.log(getLongReviews(reviews));
   
 
 /* 💪💪💪💪💪💪💪💪💪💪 STRETCH 3: 💪💪💪💪💪💪💪💪💪💪 
