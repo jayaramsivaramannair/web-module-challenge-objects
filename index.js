@@ -21,7 +21,7 @@ function createMenuItem(name, price, category){
     return newMenuItem;
 }
 
-console.log(createMenuItem("Double Cheese Burger", 10, "Burger"));
+console.log(createMenuItem("Double Cheese Burger", 10, "Breakfast"));
 
 /* 🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀 Task 1b: 🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀
 Test your createMenuItems function by doing the following:
@@ -31,7 +31,9 @@ Test your createMenuItems function by doing the following:
   
   For example: createMenuItem("pizza",5,"lunch") would return this as the object: {name:"Pizza",price:5,category:"lunch"}
 */
-
+console.log(createMenuItem("pizza", 5, "lunch"));
+console.log(createMenuItem("Chicken Fries", 12, "Dinner"));
+console.log(createMenuItem("Strawberry Sundae", 7, "Dessert"));
 
 
 /* 🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀 Task 2: 🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀
