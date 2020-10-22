@@ -83,6 +83,11 @@ const reviews = [
 Using the reviews array above:
   1. log only Julius' feedback to the console
 */
+for(let review of reviews) {
+  if(review.name === "Julius") {
+    console.log(review.feedback);
+  }
+}
 
 
 
